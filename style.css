@@ -1,0 +1,32 @@
+body {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #1a1919;
+    height: 100vh;
+    font-family: 'Atkison Hyperlegible',sans-serif;
+    Color:#fff;
+}
+
+h1{
+    animation: animate 2s ease-in-out forwards;
+}
+@keyframes animate{
+    0% {
+        transform: translateY(-920px);
+        color: #fff;
+    }
+    60%{
+        transform: translateY(0);
+    }
+    80% {
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+        color: #b30000;
+    }
+
+
+
+}
